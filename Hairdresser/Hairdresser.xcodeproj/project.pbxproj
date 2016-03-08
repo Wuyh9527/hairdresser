@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE92B4DB1C8EB1CA008749E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92B4DA1C8EB1CA008749E8 /* AppDelegate.swift */; };
+		AE92B4DD1C8EB1CA008749E8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92B4DC1C8EB1CA008749E8 /* FirstViewController.swift */; };
+		AE92B4DF1C8EB1CA008749E8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92B4DE1C8EB1CA008749E8 /* SecondViewController.swift */; };
+		AE92B4E21C8EB1CA008749E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE92B4E01C8EB1CA008749E8 /* Main.storyboard */; };
+		AE92B4E41C8EB1CA008749E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92B4E31C8EB1CA008749E8 /* Assets.xcassets */; };
+		AE92B4E71C8EB1CA008749E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE92B4E51C8EB1CA008749E8 /* LaunchScreen.storyboard */; };
+		AE92B4F21C8EB1CA008749E8 /* HairdresserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92B4F11C8EB1CA008749E8 /* HairdresserTests.swift */; };
+		AE92B4FD1C8EB1CA008749E8 /* HairdresserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE92B4FC1C8EB1CA008749E8 /* HairdresserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE92B4EE1C8EB1CA008749E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE92B4CF1C8EB1CA008749E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE92B4D61C8EB1CA008749E8;
+			remoteInfo = Hairdresser;
+		};
+		AE92B4F91C8EB1CA008749E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE92B4CF1C8EB1CA008749E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE92B4D61C8EB1CA008749E8;
+			remoteInfo = Hairdresser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE92B4D71C8EB1CA008749E8 /* Hairdresser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hairdresser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE92B4DA1C8EB1CA008749E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE92B4DC1C8EB1CA008749E8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AE92B4DE1C8EB1CA008749E8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AE92B4E11C8EB1CA008749E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE92B4E31C8EB1CA008749E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE92B4E61C8EB1CA008749E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE92B4E81C8EB1CA008749E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE92B4ED1C8EB1CA008749E8 /* HairdresserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairdresserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE92B4F11C8EB1CA008749E8 /* HairdresserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairdresserTests.swift; sourceTree = "<group>"; };
+		AE92B4F31C8EB1CA008749E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE92B4F81C8EB1CA008749E8 /* HairdresserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairdresserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE92B4FC1C8EB1CA008749E8 /* HairdresserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairdresserUITests.swift; sourceTree = "<group>"; };
+		AE92B4FE1C8EB1CA008749E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE92B4D41C8EB1CA008749E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE92B4EA1C8EB1CA008749E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE92B4F51C8EB1CA008749E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE92B4CE1C8EB1CA008749E8 = {
+			isa = PBXGroup;
+			children = (
+				AE92B4D91C8EB1CA008749E8 /* Hairdresser */,
+				AE92B4F01C8EB1CA008749E8 /* HairdresserTests */,
+				AE92B4FB1C8EB1CA008749E8 /* HairdresserUITests */,
+				AE92B4D81C8EB1CA008749E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE92B4D81C8EB1CA008749E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE92B4D71C8EB1CA008749E8 /* Hairdresser.app */,
+				AE92B4ED1C8EB1CA008749E8 /* HairdresserTests.xctest */,
+				AE92B4F81C8EB1CA008749E8 /* HairdresserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE92B4D91C8EB1CA008749E8 /* Hairdresser */ = {
+			isa = PBXGroup;
+			children = (
+				AE92B4DA1C8EB1CA008749E8 /* AppDelegate.swift */,
+				AE92B4DC1C8EB1CA008749E8 /* FirstViewController.swift */,
+				AE92B4DE1C8EB1CA008749E8 /* SecondViewController.swift */,
+				AE92B4E01C8EB1CA008749E8 /* Main.storyboard */,
+				AE92B4E31C8EB1CA008749E8 /* Assets.xcassets */,
+				AE92B4E51C8EB1CA008749E8 /* LaunchScreen.storyboard */,
+				AE92B4E81C8EB1CA008749E8 /* Info.plist */,
+			);
+			path = Hairdresser;
+			sourceTree = "<group>";
+		};
+		AE92B4F01C8EB1CA008749E8 /* HairdresserTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE92B4F11C8EB1CA008749E8 /* HairdresserTests.swift */,
+				AE92B4F31C8EB1CA008749E8 /* Info.plist */,
+			);
+			path = HairdresserTests;
+			sourceTree = "<group>";
+		};
+		AE92B4FB1C8EB1CA008749E8 /* HairdresserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE92B4FC1C8EB1CA008749E8 /* HairdresserUITests.swift */,
+				AE92B4FE1C8EB1CA008749E8 /* Info.plist */,
+			);
+			path = HairdresserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE92B4D61C8EB1CA008749E8 /* Hairdresser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE92B5011C8EB1CA008749E8 /* Build configuration list for PBXNativeTarget "Hairdresser" */;
+			buildPhases = (
+				AE92B4D31C8EB1CA008749E8 /* Sources */,
+				AE92B4D41C8EB1CA008749E8 /* Frameworks */,
+				AE92B4D51C8EB1CA008749E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hairdresser;
+			productName = Hairdresser;
+			productReference = AE92B4D71C8EB1CA008749E8 /* Hairdresser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE92B4EC1C8EB1CA008749E8 /* HairdresserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE92B5041C8EB1CA008749E8 /* Build configuration list for PBXNativeTarget "HairdresserTests" */;
+			buildPhases = (
+				AE92B4E91C8EB1CA008749E8 /* Sources */,
+				AE92B4EA1C8EB1CA008749E8 /* Frameworks */,
+				AE92B4EB1C8EB1CA008749E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE92B4EF1C8EB1CA008749E8 /* PBXTargetDependency */,
+			);
+			name = HairdresserTests;
+			productName = HairdresserTests;
+			productReference = AE92B4ED1C8EB1CA008749E8 /* HairdresserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE92B4F71C8EB1CA008749E8 /* HairdresserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE92B5071C8EB1CA008749E8 /* Build configuration list for PBXNativeTarget "HairdresserUITests" */;
+			buildPhases = (
+				AE92B4F41C8EB1CA008749E8 /* Sources */,
+				AE92B4F51C8EB1CA008749E8 /* Frameworks */,
+				AE92B4F61C8EB1CA008749E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE92B4FA1C8EB1CA008749E8 /* PBXTargetDependency */,
+			);
+			name = HairdresserUITests;
+			productName = HairdresserUITests;
+			productReference = AE92B4F81C8EB1CA008749E8 /* HairdresserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE92B4CF1C8EB1CA008749E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wuyahui;
+				TargetAttributes = {
+					AE92B4D61C8EB1CA008749E8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9253856FR9;
+					};
+					AE92B4EC1C8EB1CA008749E8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9253856FR9;
+						TestTargetID = AE92B4D61C8EB1CA008749E8;
+					};
+					AE92B4F71C8EB1CA008749E8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9253856FR9;
+						TestTargetID = AE92B4D61C8EB1CA008749E8;
+					};
+				};
+			};
+			buildConfigurationList = AE92B4D21C8EB1CA008749E8 /* Build configuration list for PBXProject "Hairdresser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE92B4CE1C8EB1CA008749E8;
+			productRefGroup = AE92B4D81C8EB1CA008749E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE92B4D61C8EB1CA008749E8 /* Hairdresser */,
+				AE92B4EC1C8EB1CA008749E8 /* HairdresserTests */,
+				AE92B4F71C8EB1CA008749E8 /* HairdresserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE92B4D51C8EB1CA008749E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE92B4E71C8EB1CA008749E8 /* LaunchScreen.storyboard in Resources */,
+				AE92B4E41C8EB1CA008749E8 /* Assets.xcassets in Resources */,
+				AE92B4E21C8EB1CA008749E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE92B4EB1C8EB1CA008749E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE92B4F61C8EB1CA008749E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE92B4D31C8EB1CA008749E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE92B4DF1C8EB1CA008749E8 /* SecondViewController.swift in Sources */,
+				AE92B4DB1C8EB1CA008749E8 /* AppDelegate.swift in Sources */,
+				AE92B4DD1C8EB1CA008749E8 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE92B4E91C8EB1CA008749E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE92B4F21C8EB1CA008749E8 /* HairdresserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE92B4F41C8EB1CA008749E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE92B4FD1C8EB1CA008749E8 /* HairdresserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE92B4EF1C8EB1CA008749E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE92B4D61C8EB1CA008749E8 /* Hairdresser */;
+			targetProxy = AE92B4EE1C8EB1CA008749E8 /* PBXContainerItemProxy */;
+		};
+		AE92B4FA1C8EB1CA008749E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE92B4D61C8EB1CA008749E8 /* Hairdresser */;
+			targetProxy = AE92B4F91C8EB1CA008749E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE92B4E01C8EB1CA008749E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE92B4E11C8EB1CA008749E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE92B4E51C8EB1CA008749E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE92B4E61C8EB1CA008749E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE92B4FF1C8EB1CA008749E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE92B5001C8EB1CA008749E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE92B5021C8EB1CA008749E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hairdresser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtjjj.Hairdresser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE92B5031C8EB1CA008749E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hairdresser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtjjj.Hairdresser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE92B5051C8EB1CA008749E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HairdresserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtjjj.HairdresserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hairdresser.app/Hairdresser";
+			};
+			name = Debug;
+		};
+		AE92B5061C8EB1CA008749E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HairdresserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtjjj.HairdresserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hairdresser.app/Hairdresser";
+			};
+			name = Release;
+		};
+		AE92B5081C8EB1CA008749E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HairdresserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtjjj.HairdresserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hairdresser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE92B5091C8EB1CA008749E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HairdresserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtjjj.HairdresserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hairdresser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE92B4D21C8EB1CA008749E8 /* Build configuration list for PBXProject "Hairdresser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE92B4FF1C8EB1CA008749E8 /* Debug */,
+				AE92B5001C8EB1CA008749E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE92B5011C8EB1CA008749E8 /* Build configuration list for PBXNativeTarget "Hairdresser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE92B5021C8EB1CA008749E8 /* Debug */,
+				AE92B5031C8EB1CA008749E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE92B5041C8EB1CA008749E8 /* Build configuration list for PBXNativeTarget "HairdresserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE92B5051C8EB1CA008749E8 /* Debug */,
+				AE92B5061C8EB1CA008749E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE92B5071C8EB1CA008749E8 /* Build configuration list for PBXNativeTarget "HairdresserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE92B5081C8EB1CA008749E8 /* Debug */,
+				AE92B5091C8EB1CA008749E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE92B4CF1C8EB1CA008749E8 /* Project object */;
+}
